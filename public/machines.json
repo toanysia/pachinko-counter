@@ -1,5 +1,5 @@
 {
-  "version": "2025-05-08",
+  "version": "2026-05-11",
   "machines": [
     {
       "id": "majugg5", "name": "マイジャグラー5", "maker": "北電子", "type": "slot", "year": 2021, "rtp": 97.8, "coinValue": 3,
@@ -13,8 +13,8 @@
     {
       "id": "majugg6", "name": "マイジャグラー6", "maker": "北電子", "type": "slot", "year": 2024, "rtp": 97.9, "coinValue": 3,
       "items": [
-        {"id":"bb","name":"BB","emoji":"⭐","color":"#7c3aed","isBonus":true,"prob":190,"sprobs":[281,254,228,200,172,128]},
-        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":300,"sprobs":[420,380,350,300,250,196]},
+        {"id":"bb","name":"BB","emoji":"⭐","color":"#7c3aed","isBonus":true,"prob":185,"sprobs":[281,254,228,200,172,128]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":290,"sprobs":[420,380,350,300,250,196]},
         {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]},
         {"id":"grape","name":"ブドウ","emoji":"🍇","color":"#22c55e","isBonus":false,"prob":6,"sprobs":[6,6,6,6,5,5]}
       ]
@@ -22,10 +22,18 @@
     {
       "id": "funkyjugg2", "name": "ファンキージャグラー2", "maker": "北電子", "type": "slot", "year": 2020, "rtp": 97.7, "coinValue": 3,
       "items": [
-        {"id":"bb","name":"BB","emoji":"⭐","color":"#7c3aed","isBonus":true,"prob":200,"sprobs":[255,228,200,183,163,141]},
-        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":260,"sprobs":[303,285,264,243,222,200]},
+        {"id":"bb","name":"BB","emoji":"⭐","color":"#7c3aed","isBonus":true,"prob":195,"sprobs":[255,228,200,183,163,141]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":250,"sprobs":[303,285,264,243,222,200]},
         {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]},
         {"id":"grape","name":"ブドウ","emoji":"🍇","color":"#22c55e","isBonus":false,"prob":7,"sprobs":[7,7,7,7,6,6]}
+      ]
+    },
+    {
+      "id": "funkyjugg3", "name": "Sファンキージャグラー3", "maker": "北電子", "type": "slot", "year": 2025, "rtp": 97.8, "coinValue": 3,
+      "items": [
+        {"id":"bb","name":"BB","emoji":"⭐","color":"#7c3aed","isBonus":true,"prob":190,"sprobs":[250,225,200,180,160,136]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":255,"sprobs":[305,282,260,238,215,195]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]}
       ]
     },
     {
@@ -33,167 +41,443 @@
       "items": [
         {"id":"bb","name":"BB","emoji":"⭐","color":"#7c3aed","isBonus":true,"prob":255,"sprobs":[287,269,254,241,228,213]},
         {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":350,"sprobs":[419,372,336,304,275,241]},
-        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]},
-        {"id":"grape","name":"ブドウ","emoji":"🍇","color":"#22c55e","isBonus":false,"prob":7,"sprobs":[7,7,7,6,6,6]}
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]}
+      ]
+    },
+    {
+      "id": "imjugg7", "name": "Sアイムジャグラー7", "maker": "北電子", "type": "slot", "year": 2025, "rtp": 97.6, "coinValue": 3,
+      "items": [
+        {"id":"bb","name":"BB","emoji":"⭐","color":"#7c3aed","isBonus":true,"prob":260,"sprobs":[290,272,256,243,229,215]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":340,"sprobs":[425,376,338,306,277,243]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]}
       ]
     },
     {
       "id": "gogojugg3", "name": "ゴーゴージャグラー3", "maker": "北電子", "type": "slot", "year": 2023, "rtp": 98.0, "coinValue": 3,
       "items": [
-        {"id":"bb","name":"BB","emoji":"⭐","color":"#7c3aed","isBonus":true,"prob":250,"sprobs":[320,290,260,240,220,180]},
-        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":360,"sprobs":[440,400,350,320,280,220]},
+        {"id":"bb","name":"BB","emoji":"⭐","color":"#7c3aed","isBonus":true,"prob":248,"sprobs":[320,290,260,240,220,178]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":355,"sprobs":[440,400,350,320,280,220]},
         {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]}
       ]
     },
     {
       "id": "happyjugg8", "name": "ハッピージャグラーVⅢ", "maker": "北電子", "type": "slot", "year": 2022, "rtp": 97.6, "coinValue": 3,
       "items": [
-        {"id":"bb","name":"BB","emoji":"⭐","color":"#7c3aed","isBonus":true,"prob":215,"sprobs":[273,249,224,206,188,163]},
-        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":215,"sprobs":[273,249,224,206,188,163]},
-        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]},
-        {"id":"grape","name":"ブドウ","emoji":"🍇","color":"#22c55e","isBonus":false,"prob":7,"sprobs":[7,7,6,6,6,6]}
+        {"id":"bb","name":"BB","emoji":"⭐","color":"#7c3aed","isBonus":true,"prob":213,"sprobs":[273,249,224,206,188,163]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":213,"sprobs":[273,249,224,206,188,163]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]}
       ]
     },
     {
       "id": "lovelyjugg3", "name": "ラブリージャグラー3", "maker": "北電子", "type": "slot", "year": 2024, "rtp": 97.5, "coinValue": 3,
       "items": [
-        {"id":"bb","name":"BB","emoji":"⭐","color":"#ec4899","isBonus":true,"prob":230,"sprobs":[295,268,241,214,190,160]},
-        {"id":"rb","name":"RB","emoji":"💜","color":"#a855f7","isBonus":true,"prob":320,"sprobs":[408,363,319,279,240,204]},
+        {"id":"bb","name":"BB","emoji":"⭐","color":"#ec4899","isBonus":true,"prob":225,"sprobs":[295,268,241,214,190,160]},
+        {"id":"rb","name":"RB","emoji":"💜","color":"#a855f7","isBonus":true,"prob":310,"sprobs":[408,363,319,279,240,203]},
         {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]}
       ]
     },
     {
-      "id": "newhanahana", "name": "ニューハナハナ", "maker": "サミー", "type": "slot", "year": 2020, "rtp": 97.5, "coinValue": 3,
+      "id": "minnanojugg", "name": "みんなのジャグラー", "maker": "北電子", "type": "slot", "year": 2022, "rtp": 97.5, "coinValue": 3,
       "items": [
-        {"id":"bb","name":"BB","emoji":"🌸","color":"#ec4899","isBonus":true,"prob":230,"sprobs":[292,256,224,196,171,134]},
-        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":310,"sprobs":[396,336,292,256,224,176]},
+        {"id":"bb","name":"BB","emoji":"⭐","color":"#7c3aed","isBonus":true,"prob":220,"sprobs":[277,249,222,196,172,150]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":360,"sprobs":[490,430,380,330,280,238]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]}
+      ]
+    },
+    {
+      "id": "jugggirlsS", "name": "ジャグラーガールズS", "maker": "北電子", "type": "slot", "year": 2022, "rtp": 97.5, "coinValue": 3,
+      "items": [
+        {"id":"bb","name":"BB","emoji":"⭐","color":"#ec4899","isBonus":true,"prob":225,"sprobs":[283,262,244,226,208,154]},
+        {"id":"rb","name":"RB","emoji":"💜","color":"#a855f7","isBonus":true,"prob":400,"sprobs":[489,455,416,380,344,328]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]}
+      ]
+    },
+    {
+      "id": "supermirjugg", "name": "スーパーミラクルジャグラー", "maker": "北電子", "type": "slot", "year": 2020, "rtp": 97.6, "coinValue": 3,
+      "items": [
+        {"id":"bb","name":"BB","emoji":"⭐","color":"#7c3aed","isBonus":true,"prob":200,"sprobs":[265,243,224,206,187,149]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":290,"sprobs":[364,328,296,268,239,195]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]}
+      ]
+    },
+    {
+      "id": "newhanahana", "name": "ニューハナハナ-30", "maker": "サミー", "type": "slot", "year": 2020, "rtp": 97.5, "coinValue": 3,
+      "items": [
+        {"id":"bb","name":"BB","emoji":"🌸","color":"#ec4899","isBonus":true,"prob":215,"sprobs":[292,256,224,196,171,134]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":295,"sprobs":[396,336,292,256,224,176]},
         {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]},
-        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":50,"sprobs":[50,50,50,50,50,50]}
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":55,"sprobs":[55,55,55,55,55,55]}
       ]
     },
     {
       "id": "hanahanahouou", "name": "ハナハナ鳳凰-30", "maker": "サミー", "type": "slot", "year": 2020, "rtp": 97.7, "coinValue": 3,
       "items": [
-        {"id":"bb","name":"BB","emoji":"🌸","color":"#ec4899","isBonus":true,"prob":215,"sprobs":[278,247,218,192,167,128]},
-        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":290,"sprobs":[378,328,284,247,213,162]},
+        {"id":"bb","name":"BB","emoji":"🌸","color":"#ec4899","isBonus":true,"prob":200,"sprobs":[278,247,218,192,167,128]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":270,"sprobs":[378,328,284,247,213,162]},
         {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]},
         {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":50,"sprobs":[50,50,50,50,50,50]}
+      ]
+    },
+    {
+      "id": "greatkinghanahana", "name": "グレートキングハナハナ-30", "maker": "サミー", "type": "slot", "year": 2021, "rtp": 97.6, "coinValue": 3,
+      "items": [
+        {"id":"bb","name":"BB","emoji":"🌸","color":"#ec4899","isBonus":true,"prob":215,"sprobs":[293,263,235,208,183,140]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":305,"sprobs":[440,390,340,295,255,174]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]}
+      ]
+    },
+    {
+      "id": "twindragonhanahana", "name": "ツインドラゴンハナハナ-30", "maker": "サミー", "type": "slot", "year": 2022, "rtp": 97.6, "coinValue": 3,
+      "items": [
+        {"id":"bb","name":"BB","emoji":"🐉","color":"#ec4899","isBonus":true,"prob":210,"sprobs":[290,263,236,210,184,140]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":285,"sprobs":[380,340,300,265,229,170]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]}
       ]
     },
     {
       "id": "okidoki_gold", "name": "沖ドキGOLD", "maker": "ユニバーサル", "type": "slot", "year": 2022, "rtp": 97.5, "coinValue": 3,
       "items": [
-        {"id":"bb","name":"BB","emoji":"🌊","color":"#0ea5e9","isBonus":true,"prob":310,"sprobs":[400,360,310,270,230,180]},
-        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":400,"sprobs":[510,450,400,345,290,220]},
+        {"id":"bb","name":"BB","emoji":"🌊","color":"#0ea5e9","isBonus":true,"prob":230,"sprobs":[300,270,240,210,185,145]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":310,"sprobs":[400,360,315,272,232,175]},
         {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]},
         {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":50,"sprobs":[50,50,50,50,50,50]}
       ]
     },
     {
+      "id": "okidoki30", "name": "沖ドキ!-30", "maker": "ユニバーサル", "type": "slot", "year": 2019, "rtp": 97.5, "coinValue": 3,
+      "items": [
+        {"id":"bb","name":"BB","emoji":"🌊","color":"#0ea5e9","isBonus":true,"prob":230,"sprobs":[300,270,240,210,185,145]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":310,"sprobs":[400,360,315,272,232,175]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":50,"sprobs":[50,50,50,50,50,50]}
+      ]
+    },
+    {
+      "id": "crea_megami", "name": "クレアの秘宝伝 女神の歌声", "maker": "山佐", "type": "slot", "year": 2021, "rtp": 97.6, "coinValue": 3,
+      "items": [
+        {"id":"bb","name":"BB","emoji":"💎","color":"#06b6d4","isBonus":true,"prob":225,"sprobs":[299,272,248,224,200,146]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":290,"sprobs":[390,355,320,288,258,197]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]},
+        {"id":"grape","name":"ブドウ","emoji":"🍇","color":"#22c55e","isBonus":false,"prob":6,"sprobs":[6,6,6,6,6,5]}
+      ]
+    },
+    {
+      "id": "yoshimune3", "name": "吉宗3", "maker": "大都技研", "type": "slot", "year": 2020, "rtp": 97.8, "coinValue": 3,
+      "items": [
+        {"id":"bb","name":"BB","emoji":"👘","color":"#f59e0b","isBonus":true,"prob":240,"sprobs":[350,312,276,245,215,158]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":370,"sprobs":[490,444,399,358,316,275]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]}
+      ]
+    },
+    {
       "id": "basilisk_kizuna2", "name": "バジリスク絆2", "maker": "エンターライズ", "type": "slot", "year": 2019, "rtp": 97.9, "coinValue": 4,
       "items": [
-        {"id":"at","name":"AT(絆2BONUS)","emoji":"🔥","color":"#f59e0b","isBonus":true,"prob":319,"sprobs":[415,380,338,297,254,203]},
-        {"id":"cherry","name":"弦之介チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":200,"sprobs":[213,205,196,189,178,166]},
+        {"id":"at","name":"AT(絆2BONUS)","emoji":"🔥","color":"#f59e0b","isBonus":true,"prob":307,"sprobs":[415,380,338,297,254,204]},
+        {"id":"cherry","name":"弦之介チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":189,"sprobs":[213,205,196,189,178,166]},
         {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":75,"sprobs":[82,79,77,74,71,67]},
-        {"id":"grape","name":"ブドウ","emoji":"🍇","color":"#8b5cf6","isBonus":false,"prob":6,"sprobs":[7,6,6,6,6,5]}
+        {"id":"grape","name":"ブドウ","emoji":"🍇","color":"#8b5cf6","isBonus":false,"prob":6,"sprobs":[7,7,6,6,6,5]}
       ]
     },
     {
       "id": "banchozero", "name": "押忍!番長ZERO", "maker": "大都技研", "type": "slot", "year": 2020, "rtp": 97.8, "coinValue": 4,
       "items": [
-        {"id":"at","name":"AT(番長ボーナス)","emoji":"💪","color":"#f59e0b","isBonus":true,"prob":299,"sprobs":[390,358,315,270,232,186]},
-        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":50,"sprobs":[56,53,50,48,45,42]},
-        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":60,"sprobs":[65,62,59,57,54,50]},
-        {"id":"botan","name":"弁当","emoji":"🍱","color":"#f97316","isBonus":false,"prob":130,"sprobs":[150,142,134,124,114,100]}
+        {"id":"at","name":"AT(番長ボーナス)","emoji":"💪","color":"#f59e0b","isBonus":true,"prob":295,"sprobs":[390,358,315,270,232,186]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":50,"sprobs":[57,53,50,48,45,43]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":59,"sprobs":[65,62,59,57,54,50]},
+        {"id":"botan","name":"弁当箱","emoji":"🍱","color":"#f97316","isBonus":false,"prob":125,"sprobs":[151,142,134,124,114,100]}
       ]
     },
     {
       "id": "rezero", "name": "Re:ゼロから始める異世界生活", "maker": "大都技研", "type": "slot", "year": 2020, "rtp": 97.9, "coinValue": 4,
       "items": [
-        {"id":"at","name":"AT(鬼がかりVer.)","emoji":"❄️","color":"#06b6d4","isBonus":true,"prob":319,"sprobs":[416,382,340,297,253,204]},
-        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[37,35,33,31,29,27]},
-        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":100,"sprobs":[113,107,100,94,87,79]},
+        {"id":"at","name":"AT(鬼がかりVer.)","emoji":"❄️","color":"#06b6d4","isBonus":true,"prob":311,"sprobs":[416,382,340,297,253,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,94,87,79]},
         {"id":"kakucherry","name":"角チェリー","emoji":"🌸","color":"#f97316","isBonus":false,"prob":2048,"sprobs":[2730,2185,2048,1820,1638,1365]}
       ]
     },
     {
       "id": "madoka2", "name": "魔法少女まどか☆マギカ2", "maker": "メーシー", "type": "slot", "year": 2021, "rtp": 97.8, "coinValue": 4,
       "items": [
-        {"id":"at","name":"AT(魔法少女BONUS)","emoji":"✨","color":"#ec4899","isBonus":true,"prob":319,"sprobs":[416,380,340,299,254,204]},
-        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[37,35,33,31,29,27]},
-        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":100,"sprobs":[113,107,100,93,87,79]}
+        {"id":"at","name":"AT(魔法少女BONUS)","emoji":"✨","color":"#ec4899","isBonus":true,"prob":311,"sprobs":[416,380,340,299,254,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
       ]
     },
     {
       "id": "valvrave", "name": "革命機ヴァルヴレイヴ", "maker": "SANKYO", "type": "slot", "year": 2021, "rtp": 97.9, "coinValue": 4,
       "items": [
-        {"id":"at","name":"AT","emoji":"🤖","color":"#7c3aed","isBonus":true,"prob":319,"sprobs":[416,380,340,299,254,204]},
-        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[37,35,33,31,29,27]},
-        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":100,"sprobs":[113,107,100,93,87,79]}
+        {"id":"at","name":"AT","emoji":"🤖","color":"#7c3aed","isBonus":true,"prob":311,"sprobs":[416,380,340,299,254,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
       ]
     },
     {
       "id": "codegeass_r2", "name": "コードギアス反逆のルルーシュR2", "maker": "フィールズ", "type": "slot", "year": 2021, "rtp": 97.9, "coinValue": 4,
       "items": [
-        {"id":"at","name":"AT(ゼロチャンス)","emoji":"👑","color":"#f59e0b","isBonus":true,"prob":319,"sprobs":[416,380,340,299,254,204]},
-        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[37,35,33,31,29,27]},
-        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":100,"sprobs":[113,107,100,93,87,79]}
-      ]
-    },
-    {
-      "id": "gamera_reverse", "name": "大怪獣ガメラリバース", "maker": "山佐", "type": "slot", "year": 2024, "rtp": 97.9, "coinValue": 4,
-      "items": [
-        {"id":"at","name":"AT(ガメラBONUS)","emoji":"🦕","color":"#22c55e","isBonus":true,"prob":299,"sprobs":[390,356,310,272,233,185]},
-        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[37,35,33,31,29,27]},
-        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":100,"sprobs":[113,107,100,93,87,79]}
+        {"id":"at","name":"AT(ゼロチャンス)","emoji":"👑","color":"#f59e0b","isBonus":true,"prob":311,"sprobs":[416,380,340,299,254,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
       ]
     },
     {
       "id": "hokuto_tenshoo", "name": "北斗の拳 天昇", "maker": "サミー", "type": "slot", "year": 2019, "rtp": 97.8, "coinValue": 4,
       "items": [
-        {"id":"at","name":"AT(世紀末BONUS)","emoji":"💥","color":"#ef4444","isBonus":true,"prob":319,"sprobs":[416,380,340,299,254,204]},
-        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[37,35,33,31,29,27]},
-        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":100,"sprobs":[113,107,100,93,87,79]}
+        {"id":"at","name":"AT(世紀末BONUS)","emoji":"💥","color":"#ef4444","isBonus":true,"prob":311,"sprobs":[416,380,340,299,254,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
       ]
     },
     {
-      "id": "eva_shinki", "name": "シン・エヴァンゲリオン", "maker": "GINZA", "type": "slot", "year": 2023, "rtp": 97.9, "coinValue": 4,
+      "id": "sin_eva", "name": "シン・エヴァンゲリオン", "maker": "GINZA", "type": "slot", "year": 2023, "rtp": 97.9, "coinValue": 4,
       "items": [
-        {"id":"at","name":"AT(セカンドインパクト)","emoji":"🔴","color":"#ef4444","isBonus":true,"prob":319,"sprobs":[416,380,340,299,254,204]},
-        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[37,35,33,31,29,27]},
-        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":100,"sprobs":[113,107,100,93,87,79]}
+        {"id":"at","name":"AT","emoji":"🔴","color":"#ef4444","isBonus":true,"prob":311,"sprobs":[416,380,340,299,254,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
       ]
     },
     {
-      "id": "kurouni_kenshin", "name": "回胴黙示録カイジ4", "maker": "GINZA", "type": "slot", "year": 2023, "rtp": 97.9, "coinValue": 4,
+      "id": "tiger_bunny2", "name": "TIGER & BUNNY2", "maker": "大都技研", "type": "slot", "year": 2023, "rtp": 97.8, "coinValue": 4,
       "items": [
-        {"id":"at","name":"AT(一条BONUS)","emoji":"🃏","color":"#f59e0b","isBonus":true,"prob":299,"sprobs":[390,356,310,272,233,185]},
-        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[37,35,33,31,29,27]},
-        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":100,"sprobs":[113,107,100,93,87,79]}
+        {"id":"at","name":"AT(HERO TIME)","emoji":"🦸","color":"#f59e0b","isBonus":true,"prob":311,"sprobs":[416,380,340,299,254,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
       ]
     },
     {
-      "id": "tiger_and_bunny", "name": "TIGER & BUNNY2", "maker": "大都技研", "type": "slot", "year": 2023, "rtp": 97.8, "coinValue": 4,
+      "id": "gamera_reverse", "name": "大怪獣ガメラリバース", "maker": "山佐", "type": "slot", "year": 2024, "rtp": 97.9, "coinValue": 4,
       "items": [
-        {"id":"at","name":"AT(HERO TIME)","emoji":"🦸","color":"#f59e0b","isBonus":true,"prob":319,"sprobs":[416,380,340,299,254,204]},
-        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[37,35,33,31,29,27]},
-        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":100,"sprobs":[113,107,100,93,87,79]}
+        {"id":"at","name":"AT","emoji":"🦕","color":"#22c55e","isBonus":true,"prob":295,"sprobs":[390,356,310,272,233,185]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "kaiji4", "name": "回胴黙示録カイジ4", "maker": "GINZA", "type": "slot", "year": 2023, "rtp": 97.9, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"🃏","color":"#f59e0b","isBonus":true,"prob":295,"sprobs":[390,356,310,272,233,185]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "kimetsu_slot", "name": "鬼滅の刃", "maker": "BANDAI", "type": "slot", "year": 2023, "rtp": 97.8, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"⚔️","color":"#ef4444","isBonus":true,"prob":296,"sprobs":[380,347,311,273,234,190]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "tensura_slot", "name": "転生したらスライムだった件", "maker": "大都技研", "type": "slot", "year": 2022, "rtp": 97.8, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"💧","color":"#3b82f6","isBonus":true,"prob":311,"sprobs":[416,380,340,299,254,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "onepiece_slot", "name": "ONE PIECE", "maker": "BANDAI", "type": "slot", "year": 2024, "rtp": 97.8, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT(麦わらBONUS)","emoji":"🏴‍☠️","color":"#f59e0b","isBonus":true,"prob":299,"sprobs":[390,358,318,279,238,192]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "urusei_yatsura", "name": "うる星やつら(スロット)", "maker": "GINZA", "type": "slot", "year": 2024, "rtp": 97.9, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"⚡","color":"#f59e0b","isBonus":true,"prob":299,"sprobs":[390,355,315,278,237,191]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "kabaneri", "name": "甲鉄城のカバネリ", "maker": "大都技研", "type": "slot", "year": 2024, "rtp": 97.9, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"🚂","color":"#f97316","isBonus":true,"prob":299,"sprobs":[390,355,315,278,237,191]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "eureka7_3", "name": "交響詩篇エウレカセブン3", "maker": "サミー", "type": "slot", "year": 2023, "rtp": 97.9, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"🌊","color":"#06b6d4","isBonus":true,"prob":311,"sprobs":[416,380,340,299,254,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "seiya_ougon", "name": "聖闘士星矢 黄金激闘", "maker": "サミー", "type": "slot", "year": 2021, "rtp": 97.8, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT(コスモBONUS)","emoji":"✨","color":"#f59e0b","isBonus":true,"prob":311,"sprobs":[416,380,340,299,254,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "biohazard_re2", "name": "バイオハザードRE:2", "maker": "コナミ", "type": "slot", "year": 2023, "rtp": 97.9, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"🧟","color":"#22c55e","isBonus":true,"prob":311,"sprobs":[416,380,340,299,254,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "goblin_slayer", "name": "ゴブリンスレイヤー", "maker": "KPE", "type": "slot", "year": 2022, "rtp": 97.8, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"🗡️","color":"#6b7280","isBonus":true,"prob":311,"sprobs":[416,380,340,299,254,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "white_album2", "name": "WHITE ALBUM2", "maker": "KPE", "type": "slot", "year": 2022, "rtp": 97.8, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"❄️","color":"#3b82f6","isBonus":true,"prob":311,"sprobs":[416,380,340,299,254,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "mahjong_30", "name": "麻雀格闘倶楽部-30", "maker": "コナミ", "type": "slot", "year": 2022, "rtp": 97.8, "coinValue": 3,
+      "items": [
+        {"id":"bb","name":"BB","emoji":"🀄","color":"#ef4444","isBonus":true,"prob":220,"sprobs":[280,256,231,208,186,152]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":310,"sprobs":[395,355,320,285,250,200]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]}
+      ]
+    },
+    {
+      "id": "thunderv_lightning", "name": "サンダーVライトニング", "maker": "山佐", "type": "slot", "year": 2022, "rtp": 97.8, "coinValue": 3,
+      "items": [
+        {"id":"bb","name":"BB","emoji":"⚡","color":"#f59e0b","isBonus":true,"prob":220,"sprobs":[282,257,233,209,188,155]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":305,"sprobs":[392,356,322,288,257,207]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]}
+      ]
+    },
+    {
+      "id": "alex", "name": "アレックス", "maker": "DAITO", "type": "slot", "year": 2022, "rtp": 97.8, "coinValue": 3,
+      "items": [
+        {"id":"bb","name":"BB","emoji":"🎩","color":"#7c3aed","isBonus":true,"prob":225,"sprobs":[285,260,236,213,191,157]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":310,"sprobs":[400,360,325,290,255,205]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]}
+      ]
+    },
+    {
+      "id": "ngnl_zero", "name": "ノーゲーム・ノーライフ ゼロ", "maker": "ユニバーサル", "type": "slot", "year": 2022, "rtp": 97.8, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"♟️","color":"#ec4899","isBonus":true,"prob":311,"sprobs":[416,380,340,299,254,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "metal_gear", "name": "メタルギアソリッドスネークイーター", "maker": "コナミ", "type": "slot", "year": 2022, "rtp": 97.9, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"🐍","color":"#22c55e","isBonus":true,"prob":311,"sprobs":[416,380,340,299,254,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "nana_slot", "name": "NANA", "maker": "大都技研", "type": "slot", "year": 2024, "rtp": 97.8, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"🎸","color":"#ec4899","isBonus":true,"prob":299,"sprobs":[390,356,318,279,238,192]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "jujutsu_kaisen_slot", "name": "呪術廻戦(スロット)", "maker": "BANDAI", "type": "slot", "year": 2024, "rtp": 97.8, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"🔮","color":"#7c3aed","isBonus":true,"prob":299,"sprobs":[390,356,318,279,238,192]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "attack_titan_slot", "name": "進撃の巨人(スロット)", "maker": "コナミ", "type": "slot", "year": 2024, "rtp": 97.8, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"⚔️","color":"#6b7280","isBonus":true,"prob":299,"sprobs":[390,356,318,279,238,192]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "dragon_quest_slot", "name": "ドラゴンクエスト(スロット)", "maker": "KPE", "type": "slot", "year": 2024, "rtp": 97.9, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"🐉","color":"#f59e0b","isBonus":true,"prob":299,"sprobs":[390,356,318,279,238,192]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "hokuto_musou", "name": "北斗の拳 修羅の国篇", "maker": "サミー", "type": "slot", "year": 2023, "rtp": 97.9, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"💥","color":"#ef4444","isBonus":true,"prob":299,"sprobs":[390,356,318,279,238,192]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "magia_slot", "name": "マギアレコード", "maker": "メーシー", "type": "slot", "year": 2023, "rtp": 97.8, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"💫","color":"#ec4899","isBonus":true,"prob":311,"sprobs":[416,380,340,299,254,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "rezero2", "name": "Re:ゼロ2", "maker": "大都技研", "type": "slot", "year": 2024, "rtp": 97.9, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"❄️","color":"#06b6d4","isBonus":true,"prob":299,"sprobs":[390,356,318,279,238,192]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
       ]
     },
     {
       "id": "umineko", "name": "ウミネコ-30", "maker": "KPE", "type": "slot", "year": 2024, "rtp": 97.7, "coinValue": 3,
       "items": [
-        {"id":"bb","name":"BB","emoji":"🌊","color":"#3b82f6","isBonus":true,"prob":250,"sprobs":[310,285,258,230,205,170]},
-        {"id":"rb","name":"RB","emoji":"🔵","color":"#06b6d4","isBonus":true,"prob":350,"sprobs":[430,390,350,310,270,220]},
-        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]},
-        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":50,"sprobs":[50,50,50,50,50,50]}
+        {"id":"bb","name":"BB","emoji":"🌊","color":"#3b82f6","isBonus":true,"prob":245,"sprobs":[310,285,258,230,205,170]},
+        {"id":"rb","name":"RB","emoji":"🔵","color":"#06b6d4","isBonus":true,"prob":340,"sprobs":[430,390,350,310,270,220]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":33,"sprobs":[33,33,33,33,33,33]}
+      ]
+    },
+    {
+      "id": "yokozuna", "name": "押忍!豪炎高校相撲部", "maker": "大都技研", "type": "slot", "year": 2023, "rtp": 97.8, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT","emoji":"🏆","color":"#f59e0b","isBonus":true,"prob":311,"sprobs":[416,380,340,299,254,204]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"suika","name":"スイカ","emoji":"🍉","color":"#22c55e","isBonus":false,"prob":97,"sprobs":[113,107,100,93,87,79]}
+      ]
+    },
+    {
+      "id": "million_god_zeus", "name": "ミリオンゴッド神々の凱旋", "maker": "ユニバーサル", "type": "slot", "year": 2022, "rtp": 97.9, "coinValue": 4,
+      "items": [
+        {"id":"at","name":"AT(GOD BONUS)","emoji":"⚡","color":"#f59e0b","isBonus":true,"prob":299,"sprobs":[390,356,318,279,238,192]},
+        {"id":"cherry","name":"チェリー","emoji":"🍒","color":"#ef4444","isBonus":false,"prob":32,"sprobs":[38,35,33,31,29,27]},
+        {"id":"grape","name":"ブドウ","emoji":"🍇","color":"#22c55e","isBonus":false,"prob":6,"sprobs":[7,7,6,6,6,5]}
       ]
     },
     {
       "id": "pumi5", "name": "P海物語5", "maker": "三洋物産", "type": "pachinko", "year": 2022, "rtp": 99.0, "coinValue": 1,
       "items": [
-        {"id":"kakuhen","name":"確変大当たり","emoji":"🐠","color":"#f59e0b","isBonus":true,"prob":315,"sprobs":[315,315,315,315,315,315]},
-        {"id":"tsuu","name":"通常大当たり","emoji":"💙","color":"#3b82f6","isBonus":true,"prob":315,"sprobs":[315,315,315,315,315,315]}
+        {"id":"jackpot","name":"大当たり","emoji":"🐠","color":"#3b82f6","isBonus":true,"prob":315,"sprobs":[315,315,315,315,315,315]},
+        {"id":"kakuhen","name":"確変大当たり","emoji":"🌊","color":"#f59e0b","isBonus":true,"prob":315,"sprobs":[315,315,315,315,315,315]}
+      ]
+    },
+    {
+      "id": "umi_okinawa5", "name": "スーパー海物語IN沖縄5", "maker": "三洋物産", "type": "pachinko", "year": 2023, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"jackpot","name":"大当たり","emoji":"🌺","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"kakuhen","name":"確変","emoji":"⭐","color":"#f59e0b","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
+      ]
+    },
+    {
+      "id": "umi_in_japan", "name": "海物語 IN JAPAN2", "maker": "三洋物産", "type": "pachinko", "year": 2021, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"jackpot","name":"大当たり","emoji":"🗻","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
       ]
     },
     {
@@ -218,16 +502,120 @@
       ]
     },
     {
-      "id": "umi_super", "name": "スーパー海物語IN沖縄5", "maker": "三洋物産", "type": "pachinko", "year": 2023, "rtp": 99.0, "coinValue": 1,
+      "id": "fever_gundam_uni", "name": "Pフィーバーガンダムユニコーン", "maker": "SANKYO", "type": "pachinko", "year": 2023, "rtp": 99.0, "coinValue": 1,
       "items": [
-        {"id":"kakuhen","name":"確変大当たり","emoji":"🌺","color":"#f59e0b","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"kakuhen","name":"確変大当たり","emoji":"🤖","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"tsuu","name":"通常大当たり","emoji":"💙","color":"#60a5fa","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
+      ]
+    },
+    {
+      "id": "p_hanakajiG", "name": "P花の慶次G", "maker": "藤商事", "type": "pachinko", "year": 2022, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"kakuhen","name":"確変大当たり","emoji":"🌸","color":"#ec4899","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
         {"id":"tsuu","name":"通常大当たり","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
       ]
     },
     {
-      "id": "fever_gundam", "name": "Pフィーバーガンダムユニコーン", "maker": "SANKYO", "type": "pachinko", "year": 2023, "rtp": 99.0, "coinValue": 1,
+      "id": "p_azure_lane", "name": "Pアズールレーン", "maker": "平和", "type": "pachinko", "year": 2023, "rtp": 99.0, "coinValue": 1,
       "items": [
-        {"id":"kakuhen","name":"確変大当たり","emoji":"🤖","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"kakuhen","name":"確変大当たり","emoji":"⚓","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"tsuu","name":"通常大当たり","emoji":"💙","color":"#60a5fa","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
+      ]
+    },
+    {
+      "id": "p_monogatari", "name": "P物語シリーズ セカンドシーズン", "maker": "フィールズ", "type": "pachinko", "year": 2024, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"kakuhen","name":"確変大当たり","emoji":"🦋","color":"#ec4899","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"tsuu","name":"通常大当たり","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
+      ]
+    },
+    {
+      "id": "p_kimetsu", "name": "P鬼滅の刃", "maker": "BANDAI", "type": "pachinko", "year": 2024, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"kakuhen","name":"確変大当たり","emoji":"⚔️","color":"#ef4444","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"tsuu","name":"通常大当たり","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
+      ]
+    },
+    {
+      "id": "p_jujutsu", "name": "P呪術廻戦", "maker": "SANKYO", "type": "pachinko", "year": 2024, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"kakuhen","name":"確変大当たり","emoji":"🔮","color":"#7c3aed","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"tsuu","name":"通常大当たり","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
+      ]
+    },
+    {
+      "id": "p_ring3", "name": "Pリング 呪いの7日間3", "maker": "平和", "type": "pachinko", "year": 2023, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"kakuhen","name":"確変大当たり","emoji":"📺","color":"#ef4444","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"tsuu","name":"通常大当たり","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
+      ]
+    },
+    {
+      "id": "p_galaxyexpress", "name": "P銀河鉄道999", "maker": "藤商事", "type": "pachinko", "year": 2023, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"kakuhen","name":"確変大当たり","emoji":"🚂","color":"#f59e0b","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"tsuu","name":"通常大当たり","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
+      ]
+    },
+    {
+      "id": "p_ikki_tousen", "name": "P一騎当千", "maker": "西陣", "type": "pachinko", "year": 2023, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"kakuhen","name":"確変大当たり","emoji":"⚔️","color":"#ef4444","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"tsuu","name":"通常大当たり","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
+      ]
+    },
+    {
+      "id": "p_newkikka", "name": "Pスーパー電役 大菊満開", "maker": "三洋物産", "type": "pachinko", "year": 2023, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"jackpot","name":"大当たり","emoji":"🌸","color":"#ec4899","isBonus":true,"prob":99,"sprobs":[99,99,99,99,99,99]}
+      ]
+    },
+    {
+      "id": "p_goldenbasin", "name": "PAゴールデン大黄金", "maker": "平和", "type": "pachinko", "year": 2023, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"kakuhen","name":"確変大当たり","emoji":"💛","color":"#f59e0b","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"tsuu","name":"通常大当たり","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
+      ]
+    },
+    {
+      "id": "p_attack_titan", "name": "P進撃の巨人", "maker": "SANYO", "type": "pachinko", "year": 2024, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"kakuhen","name":"確変大当たり","emoji":"⚔️","color":"#ef4444","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"tsuu","name":"通常大当たり","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
+      ]
+    },
+    {
+      "id": "p_madoka", "name": "Pまどか☆マギカ4", "maker": "メーシー", "type": "pachinko", "year": 2024, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"kakuhen","name":"確変大当たり","emoji":"✨","color":"#ec4899","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"tsuu","name":"通常大当たり","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
+      ]
+    },
+    {
+      "id": "p_onepiece", "name": "PONE PIECE", "maker": "BANDAI", "type": "pachinko", "year": 2024, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"kakuhen","name":"確変大当たり","emoji":"🏴‍☠️","color":"#f59e0b","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"tsuu","name":"通常大当たり","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
+      ]
+    },
+    {
+      "id": "p_urusei", "name": "Pうる星やつら", "maker": "GINZA", "type": "pachinko", "year": 2024, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"kakuhen","name":"確変大当たり","emoji":"⚡","color":"#f59e0b","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"tsuu","name":"通常大当たり","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
+      ]
+    },
+    {
+      "id": "p_gozilla_eva", "name": "Pゴジラ対エヴァンゲリオン", "maker": "GINZA", "type": "pachinko", "year": 2022, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"kakuhen","name":"確変大当たり","emoji":"🦎","color":"#22c55e","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
+        {"id":"tsuu","name":"通常大当たり","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
+      ]
+    },
+    {
+      "id": "p_fever_kiniro", "name": "PフィーバーKINIROモザイク", "maker": "SANKYO", "type": "pachinko", "year": 2022, "rtp": 99.0, "coinValue": 1,
+      "items": [
+        {"id":"kakuhen","name":"確変大当たり","emoji":"👑","color":"#f59e0b","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]},
         {"id":"tsuu","name":"通常大当たり","emoji":"🔵","color":"#3b82f6","isBonus":true,"prob":319,"sprobs":[319,319,319,319,319,319]}
       ]
     }
