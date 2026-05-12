@@ -8,7 +8,7 @@ import { SettingsScreen } from './components/Settings/SettingsScreen'
 import { useStore } from './store/useStore'
 
 const TITLES: Record<TabId, string> = {
-  counter:  '🎰 子役カウンター',
+  counter:  '🎰 小役カウンター',
   stats:    '📊 統計・確率',
   budget:   '💰 収支管理',
   advice:   '🤖 やめドキ AI',

@@ -334,7 +334,7 @@ export function SettingsScreen() {
       </div>
 
       <div className="text-center text-[10px] text-slate-700 pb-2">
-        子役カウンター Pro v1.0 — データはこの端末にのみ保存されます
+        小役カウンター v1.0 — データはこの端末にのみ保存されます
       </div>
     </div>
   )
