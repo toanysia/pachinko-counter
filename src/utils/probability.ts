@@ -64,7 +64,7 @@ export function balanceYen(session: Session, coinValue: number): number {
   return (session.returned - session.investment) * coinValue
 }
 
-/** ベイズ設定推測: 各設定(1-6)の事後確率を返す */
+/** ベイズ設定推測: 各設定(1-6)の事後確率を返す (対数尤度+log-sum-exp で underflow 防止) */
 export function estimateSettings(
   items: CountItem[],
   games: number,
@@ -72,24 +72,40 @@ export function estimateSettings(
 ): number[] {
   if (games === 0 || settingProbs.length === 0) return [1/6, 1/6, 1/6, 1/6, 1/6, 1/6]
 
-  const SETTINGS = [1, 2, 3, 4, 5, 6] as const
-  let likelihoods = SETTINGS.map(() => 1.0)
+  // 対数尤度で計算 (数値アンダーフロー防止)
+  const logL = [0, 0, 0, 0, 0, 0]
 
   for (const sp of settingProbs) {
     const item = items.find(i => i.id === sp.itemId)
-    if (!item || games === 0) continue
-    const probs = [sp.setting1, sp.setting2, sp.setting3, sp.setting4, sp.setting5, sp.setting6]
-    SETTINGS.forEach((_, idx) => {
-      const p = 1 / probs[idx]
-      // Poisson likelihood: P(count | rate=p, games) ∝ p^count * (1-p)^(games-count)
-      const rate = p
-      likelihoods[idx] *= Math.pow(rate, item.count) * Math.pow(1 - rate, Math.max(0, games - item.count))
-    })
+    if (!item || item.count === 0) continue
+    const denoms = [sp.setting1, sp.setting2, sp.setting3, sp.setting4, sp.setting5, sp.setting6]
+    for (let s = 0; s < 6; s++) {
+      const p = 1 / denoms[s]           // 役が出る確率
+      const k = item.count               // 出た回数
+      const n = games                    // 総ゲーム数
+      // 二項分布対数尤度: k*log(p) + (n-k)*log(1-p)
+      logL[s] += k * Math.log(p) + Math.max(0, n - k) * Math.log(1 - p)
+    }
   }
 
-  const total = likelihoods.reduce((s, v) => s + v, 0)
+  // log-sum-exp で正規化 → 事後確率
+  const maxLog = Math.max(...logL)
+  const expVals = logL.map(ll => Math.exp(ll - maxLog))
+  const total = expVals.reduce((s, v) => s + v, 0)
   if (total === 0) return [1/6, 1/6, 1/6, 1/6, 1/6, 1/6]
-  return likelihoods.map(v => v / total)
+  return expVals.map(v => v / total)
+}
+
+/** 設定推測の信頼度スコア (0-1): データ量と分布の鋭さから計算 */
+export function settingConfidence(posteriors: number[], games: number): number {
+  if (games === 0) return 0
+  // エントロピーベースの信頼度 (低エントロピー = 高信頼)
+  const maxEntropy = Math.log(6)
+  const entropy = -posteriors.reduce((s, p) => s + (p > 0 ? p * Math.log(p) : 0), 0)
+  const entropyScore = Math.max(0, 1 - entropy / maxEntropy)
+  // ゲーム数による重み (100G以下は低信頼)
+  const gameScore = Math.min(1, games / 500)
+  return Math.sqrt(entropyScore * gameScore)
 }
 
 /** 期待収支計算 (現在の投資から将来を推定) */
